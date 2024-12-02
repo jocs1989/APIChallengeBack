@@ -5,9 +5,28 @@ import logging
 from src.template.template import Template
 from src.database.connections.mongodb.bd import get_collection
 from src.enum.status_enum import Status
-
+from datetime import datetime
 # Configuración de logging
 logging.basicConfig(level=logging.INFO)
+def normalize_item(item):
+    """
+    Normaliza un solo item de la colección, transformando las propiedades
+    para que tenga una salida más sencilla.
+    """
+
+    # Normalizar ObjectId
+    normalized_item = {
+        "id": str(item["_id"]),  # Convertir ObjectId a string
+        "batchId": item["batchId"],
+        "createdAt": item["createdAt"].isoformat() if isinstance(item["createdAt"], datetime) else item["createdAt"],
+        "updatedAt": item["updatedAt"].isoformat() if isinstance(item["updatedAt"], datetime) else item["updatedAt"],
+        "status": item["status"],
+        "producto": item["producto"],
+        "precio": item["precio"],
+        "img": item["img"]
+    }
+
+    return normalized_item
 
 class Scraper:
     def __init__(
@@ -113,7 +132,8 @@ class Scraper:
                   
                     result= await collection.find({"batchId":self.bach_id}).to_list(length=None)
                    
-                    return result
+                    return [normalize_item(item) for item in result]
+                   
                        
                             
                             

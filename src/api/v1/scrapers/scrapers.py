@@ -14,17 +14,19 @@ from fastapi import (
     UploadFile,
     File
 )
+from src.schemas.schema import ScraperIn
 from fastapi.responses import JSONResponse
 router = APIRouter()
 
 
 @router.post("/tiendas_jumbo", status_code=status.HTTP_201_CREATED)
-async def start():
+async def start(data:ScraperIn=Body(...)):
     try:
+
         bach_id=str(uuid4())
-        result = await Scraper(url="https://www.tiendasjumbo.co/televisores-y-audio",bach_id=bach_id).start()
+        result = await Scraper(url=data.url,bach_id=bach_id).start()
         
-        return f'{result}'
+        return result
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error al procesar la solicitud: {str(e)}")

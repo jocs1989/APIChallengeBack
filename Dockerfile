@@ -6,11 +6,11 @@ FROM python:3.9
 # Configuración de las variables de entorno
 ENV APP_ENV='local' \
     APP_NAME='WebScrapr' \
-    PORT=3000 \
+    PORT=${PORT} \
     HOST='0.0.0.0' \
     LOG_LEVEL=INFO \
     APP_HOME='/usr/src/app' \
-    MONGODB_URI='' \
+    MONGODB_URI=${MONGODB_URI} \
     PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONHASHSEED=random \
@@ -58,13 +58,9 @@ RUN playwright install --with-deps
 WORKDIR $APP_HOME
 COPY . $APP_HOME
 
-# Cambiar los permisos de los archivos para el usuario no root
-RUN chown -R scraper:scraper $APP_HOME
-
-
 
 # Exponer el puerto 3000
-EXPOSE 3000
+EXPOSE ${PORT}
 
 # Ejecutar la aplicación
 CMD ["python", "main.py"]

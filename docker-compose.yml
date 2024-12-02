@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scraper
+    environment:
+      - MONGO_URI=mongodb://localhost:27017 # Aquí se conecta con el contenedor de MongoDB
+    ports:
+      - "3000:3000"  # Exponiendo el puerto 8000 del contenedor al 3000 en el host
+    volumes:
+      - .:/usr/src/app  # Monta el directorio actual en el contenedor
+      - .env:/usr/src/app/.env  # Monta el archivo .env en la ruta del contenedor
+    depends_on:
+      - mongo  # Asegura que el contenedor de MongoDB esté disponible antes de iniciar el scraper
+
+  mongo:
+    image: mongo:latest  # Usando la última versión de MongoDB
+    container_name: mongo
+    ports:
+      - "27017:27017"  # Exponiendo el puerto de MongoDB
+    volumes:
+      - mongo_data:/data/db  # Volumen persistente para la base de datos
+
+volumes:
+  mongo_data:
+    driver: local
