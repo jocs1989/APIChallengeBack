@@ -1,15 +1,21 @@
-import motor.motor_asyncio
-import logging
 from playwright.async_api import async_playwright, TimeoutError
+from uuid import uuid4
 import asyncio
+import logging
+from src.template.template import Template
+from src.database.connections.mongodb.bd import get_collection
+from src.enum.status_enum import Status
 
 # Configuración de logging
 logging.basicConfig(level=logging.INFO)
 
-class Scraper():
-    def __init__(self, url="https://www.tiendasjumbo.co/televisores-y-audio", headless=False) -> None:
+class Scraper:
+    def __init__(
+        self, url="https://www.tiendasjumbo.co/televisores-y-audio", headless=True, bach_id=str(uuid4())
+    ) -> None:
         self.headless = headless
         self.url = url
+        self.bach_id = bach_id
 
     async def start(self):
         """Iniciar el proceso de scraping."""
@@ -18,35 +24,116 @@ class Scraper():
             browser = await p.chromium.launch(headless=self.headless)
             context = await browser.new_context()
 
-    
             page = await context.new_page()
 
             try:
                 # Abrir la URL
-                await asyncio.wait_for(page.goto(self.url), timeout=10)
+                await page.goto(self.url)
 
-                # Ejemplo: Extraer información de productos (por ejemplo, los nombres de los televisores)
-                products = await page.query_selector_all('div.product')  # Cambia el selector según el sitio web
+                # Esperar a que la página cargue completamente
+                await page.wait_for_load_state("load", timeout=30000)
 
-                product_names = []
-                for product in products:
-                    name = await product.query_selector('span.product-name')  # Cambia según el selector
-                    if name:
-                        product_names.append(await name.inner_text())
+                # Realizar scroll hasta el final de la página para cargar todos los productos
+                last_height = await page.evaluate('document.body.scrollHeight')
+                
+                while True:
+                    # Hacer scroll hacia abajo
+                    await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                    await page.wait_for_timeout(1000)  # Esperar un segundo para que se carguen los productos
+                    
+                    # Verificar si el scroll ha llegado al final
+                    new_height = await page.evaluate('document.body.scrollHeight')
+                    if new_height == last_height:
+                        break
+                    last_height = new_height
 
-                logging.info(f"Productos encontrados: {product_names}")
-                return product_names
+                # Buscar todos los elementos con la clase 'tiendasjumboqaio-cmedia-integration-cencosud-0-x-galleryItem'
+                productos = await page.query_selector_all(
+                    ".tiendasjumboqaio-cmedia-integration-cencosud-0-x-galleryItem"
+                )
+
+                # Verificar si se encontraron productos
+                if productos:
+                    logging.info(f"Se encontraron {len(productos)} productos.")
+
+                    for producto in productos:
+                        # Extraer el nombre del producto
+                        nombre = await producto.query_selector(
+                            ".vtex-product-summary-2-x-productNameContainer"
+                        )
+                        logging.info("Obteniendo nombre del producto.")
+                        nombre_producto = (
+                            await nombre.inner_text()
+                            if nombre
+                            else "Nombre no disponible"
+                        )
+
+                        # Extraer el precio
+                        logging.info("Obteniendo precio del producto.")
+                        precio = await producto.query_selector(
+                            ".tiendasjumboqaio-jumbo-minicart-2-x-price"
+                        )
+                        precio_producto = (
+                            await precio.inner_text()
+                            if precio
+                            else "Precio no disponible"
+                        )
+
+                        # Extraer la URL de la imagen
+                        logging.info("Obteniendo url de la imagen del producto.")
+                        imagen = await producto.query_selector(
+                            ".vtex-product-summary-2-x-imageNormal.vtex-product-summary-2-x-image"
+                        )
+                        imagen_url = (
+                            await imagen.get_attribute("src")
+                            if imagen
+                            else "Imagen no disponible"
+                        )
+
+                        # Mostrar los resultados
+                        data = Template(bach_id=self.bach_id).run()
+                        data["producto"] = nombre_producto
+                        data["precio"] = precio_producto
+                        data["img"] = imagen_url
+                        data["status"] = Status.COMPLETE.value
+                        try:
+                            collection = next(get_collection())
+                            logging.info(f"Guardando en base de datos")
+                            await collection.insert_one(data)
+
+                        except Exception as e:
+                            logging.error(f"No se pudo conectar a base de datos: {e}")
+                            
+                        logging.info(f"Producto: {nombre_producto}")
+                        logging.info(f"Precio: {precio_producto}")
+                        logging.info(f"Imagen: {imagen_url}")
+                        logging.info(data)
+                        logging.info("-" * 40)
+                    logging.info(f"Sacando resultados")
+                  
+                    result= await collection.find({"batchId":self.bach_id}).to_list(length=None)
+                   
+                    return result
+                       
+                            
+                            
+
+                else:
+                    logging.warning("No se encontraron productos con esa clase.")
 
             except TimeoutError:
                 logging.error("Tiempo de espera agotado al cargar la página.")
+                data["status"] = Status.FAILED.value
+                
             except Exception as e:
                 logging.error(f"Error al intentar hacer scraping: {e}")
+                data["status"] = Status.FAILED.value
             finally:
                 await browser.close()
 
-async def get_data(url: str = "https://www.tiendasjumbo.co/televisores-y-audio"):
-    scraper = Scraper(url=url)
-    result = await scraper.start()
-    return result
 
-# Función principal para ejecutar el script
+async def get_data(
+    url: str = "https://www.tiendasjumbo.co/tecnologia/informatica/computadores-portatiles",
+):
+    scraper = Scraper(url=url)
+    await scraper.start()

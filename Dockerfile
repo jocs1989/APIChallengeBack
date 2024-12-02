@@ -1,40 +1,70 @@
-FROM python:3.11
+FROM python:3.9
+
+# Crear el usuario scraper
 
 
-RUN useradd -m -d /home/scraper scraper
-
-
+# Configuración de las variables de entorno
 ENV APP_ENV='local' \
-  APP_NAME='WebScrapr' \
-  PORT=3000 \
-  HOST='0.0.0.0'  \
-  LOG_LEVEL=DEBUG  \
-  LOG_LEVEL=INFO \
-  APP_HOME='/usr/src/app' \
-  MONGODB_URI=''  \
-  PYTHONFAULTHANDLER=1 \
-  PYTHONUNBUFFERED=1 \
-  PYTHONHASHSEED=random \
-  PIP_NO_CACHE_DIR=off \
-  PIP_DISABLE_PIP_VERSION_CHECK=on \
-  PIP_DEFAULT_TIMEOUT=100
+    APP_NAME='WebScrapr' \
+    PORT=3000 \
+    HOST='0.0.0.0' \
+    LOG_LEVEL=INFO \
+    APP_HOME='/usr/src/app' \
+    MONGODB_URI='' \
+    PYTHONFAULTHANDLER=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONHASHSEED=random \
+    PIP_NO_CACHE_DIR=off \
+    PIP_DISABLE_PIP_VERSION_CHECK=on \
+    PIP_DEFAULT_TIMEOUT=100
 
-# System deps:
+# Instalar dependencias del sistema necesarias para Playwright y otros paquetes
+RUN apt-get update && \
+    apt-get install -y \
+    wget \
+    curl \
+    libx11-dev \
+    libxcomposite-dev \
+    libxdamage-dev \
+    libpng-dev \
+    libnss3-dev \
+    libatk-bridge2.0-0 \
+    libatk1.0-0 \
+    libxrandr2 \
+    libgbm-dev \
+    libasound2 \
+    libgdk-pixbuf2.0-0 \
+    libdbus-1-3 \
+    libgtk-3-0 \
+    ca-certificates \
+    fonts-liberation \
+    libappindicator3-1 \
+    libnspr4 \
+    libxss1 \
+    libxtst6 \
+    lsb-release \
+    sudo && \
+    apt-get clean
+
+# Copiar el archivo de requerimientos e instalar dependencias de Python
 COPY requirements.txt . 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy only requirements to cache them in docker layer
+# Instalar los navegadores necesarios para Playwright
+RUN python -m playwright install --with-deps
+RUN playwright install --with-deps
+
+# Configuración de trabajo y copiado de la aplicación
 WORKDIR $APP_HOME
-# Creating folders, and files for a project:
 COPY . $APP_HOME
 
-
-# Cambiar propietario de los archivos al usuario no root
+# Cambiar los permisos de los archivos para el usuario no root
 RUN chown -R scraper:scraper $APP_HOME
 
-# Cambiar al usuario no root
-USER scraper
 
-# Run the web service on container startup.
 
+# Exponer el puerto 3000
+EXPOSE 3000
+
+# Ejecutar la aplicación
 CMD ["python", "main.py"]
