@@ -1,0 +1,1024 @@
+[{
+  "_id": {
+    "$oid": "674d234f91c02dba24813dad"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:39.895Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Combo Televisor LG 55\" LED UHD 4K Smart Tv WebOS 55UR7800PSB + Barra de sonido LG SK1 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/705305-300-300?v=638684253211670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d234f91c02dba24813daf"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:39.961Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 50'' QLED UHD 4K Smart TV QN50Q60DAKXZL ",
+  "precio": "$ 1.849.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/688125-300-300?v=638654622347800000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813db1"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:39.999Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 43'' LED UHD 4K Smart TV UN43DU7000KXZL ",
+  "precio": "$ 1.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631026-300-300?v=638526923993700000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813db3"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.033Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 55'' LED UHD 4K Smart TV UN55DU7000KXZL ",
+  "precio": "$ 1.699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631002-300-300?v=638526923925970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813db5"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.066Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 55'' LED UHD 4K Smart TV WebOS 24 55UT7300 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627707-300-300?v=638518152381270000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813db7"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.097Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun Smart 43\" DLED FHD C43VAFW ",
+  "precio": "$ 949.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/569430-300-300?v=638429985937000000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813db9"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.130Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 50\" NanoCell UHD 4K Smart TV WebOS 24 50NANO80 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/678913-300-300?v=638642830887970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dbb"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 65'' LED UHD 4K Smart TV WebOS 24 65UT7300 ",
+  "precio": "$ 2.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627715-300-300?v=638518152409670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dbd"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 65\" Smart TV UHD 4K C65VAUW ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/587186-300-300?v=638463890102470000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dbf"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.243Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Challenger 32\" LED HD Smart  Google Tv 32TG79 ",
+  "precio": "$ 649.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/636737-300-300?v=638548520878770000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dc1"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.276Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 43\" DLED FHD Smart Tv C43VAFG ",
+  "precio": "$ 899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/551651-300-300?v=638385973687570000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dc3"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.308Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 32\" LED FHD Smart TV 32S5400AF ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670445-300-300?v=638616664490970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dc5"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.342Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hisense 70 pulgadas UHD 4K Smart TV 70A6N ",
+  "precio": "$ 2.249.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/704298-300-300?v=638676440221330000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dc7"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.375Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 43\" LED FHD Smart TV HYLED4322GiM ",
+  "precio": "$ 959.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661077-300-300?v=638605653439670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dc9"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.406Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 32\" LED HD Smart TV HYLED3254GiM ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661040-300-300?v=638605647697830000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d235091c02dba24813dcb"
+  },
+  "batchId": "c7e03214-faf3-47e3-b6e9-3244d9301795",
+  "createdAt": {
+    "$date": "2024-12-01T21:02:40.437Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T20:59:28.308Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 43\" LED FHD Smart TV 43S5400A ",
+  "precio": "$ 999.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670454-300-300?v=638616666606870000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2440a90fa7c83f9dc058"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:40.879Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Combo Televisor LG 55\" LED UHD 4K Smart Tv WebOS 55UR7800PSB + Barra de sonido LG SK1 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/705305-300-300?v=638684253211670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2440a90fa7c83f9dc05a"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:40.912Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 50'' QLED UHD 4K Smart TV QN50Q60DAKXZL ",
+  "precio": "$ 1.849.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/688125-300-300?v=638654622347800000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2440a90fa7c83f9dc05c"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:40.944Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 43'' LED UHD 4K Smart TV UN43DU7000KXZL ",
+  "precio": "$ 1.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631026-300-300?v=638526923993700000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2440a90fa7c83f9dc05e"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:40.976Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 55'' LED UHD 4K Smart TV UN55DU7000KXZL ",
+  "precio": "$ 1.699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631002-300-300?v=638526923925970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc060"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.007Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 55'' LED UHD 4K Smart TV WebOS 24 55UT7300 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627707-300-300?v=638518152381270000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc062"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.037Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun Smart 43\" DLED FHD C43VAFW ",
+  "precio": "$ 949.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/569430-300-300?v=638429985937000000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc064"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.067Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 50\" NanoCell UHD 4K Smart TV WebOS 24 50NANO80 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/678913-300-300?v=638642830887970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc066"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.099Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 65'' LED UHD 4K Smart TV WebOS 24 65UT7300 ",
+  "precio": "$ 2.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627715-300-300?v=638518152409670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc068"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.130Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 65\" Smart TV UHD 4K C65VAUW ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/587186-300-300?v=638463890102470000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc06a"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.161Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Challenger 32\" LED HD Smart  Google Tv 32TG79 ",
+  "precio": "$ 649.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/636737-300-300?v=638548520878770000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc06c"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.204Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 43\" DLED FHD Smart Tv C43VAFG ",
+  "precio": "$ 899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/551651-300-300?v=638385973687570000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc06e"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.235Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 32\" LED FHD Smart TV 32S5400AF ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670445-300-300?v=638616664490970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc070"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.268Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hisense 70 pulgadas UHD 4K Smart TV 70A6N ",
+  "precio": "$ 2.249.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/704298-300-300?v=638676440221330000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc072"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.299Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 43\" LED FHD Smart TV HYLED4322GiM ",
+  "precio": "$ 959.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661077-300-300?v=638605653439670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc074"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.332Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 32\" LED HD Smart TV HYLED3254GiM ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661040-300-300?v=638605647697830000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d2441a90fa7c83f9dc076"
+  },
+  "batchId": "81333e3a-e09c-449a-ba10-8ef48391e7f2",
+  "createdAt": {
+    "$date": "2024-12-01T21:06:41.364Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:05:53.520Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 43\" LED FHD Smart TV 43S5400A ",
+  "precio": "$ 999.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670454-300-300?v=638616666606870000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1adb"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.525Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Combo Televisor LG 55\" LED UHD 4K Smart Tv WebOS 55UR7800PSB + Barra de sonido LG SK1 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/705305-300-300?v=638684253211670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1add"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.562Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 50'' QLED UHD 4K Smart TV QN50Q60DAKXZL ",
+  "precio": "$ 1.849.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/688125-300-300?v=638654622347800000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1adf"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.599Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 43'' LED UHD 4K Smart TV UN43DU7000KXZL ",
+  "precio": "$ 1.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631026-300-300?v=638526923993700000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1ae1"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.635Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 55'' LED UHD 4K Smart TV UN55DU7000KXZL ",
+  "precio": "$ 1.699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631002-300-300?v=638526923925970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1ae3"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.676Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 55'' LED UHD 4K Smart TV WebOS 24 55UT7300 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627707-300-300?v=638518152381270000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1ae5"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.709Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun Smart 43\" DLED FHD C43VAFW ",
+  "precio": "$ 949.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/569430-300-300?v=638429985937000000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1ae7"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.744Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 50\" NanoCell UHD 4K Smart TV WebOS 24 50NANO80 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/678913-300-300?v=638642830887970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1ae9"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.777Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 65'' LED UHD 4K Smart TV WebOS 24 65UT7300 ",
+  "precio": "$ 2.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627715-300-300?v=638518152409670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1aeb"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.807Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 65\" Smart TV UHD 4K C65VAUW ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/587186-300-300?v=638463890102470000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1aed"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.839Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Challenger 32\" LED HD Smart  Google Tv 32TG79 ",
+  "precio": "$ 649.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/636737-300-300?v=638548520878770000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1aef"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.868Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 43\" DLED FHD Smart Tv C43VAFG ",
+  "precio": "$ 899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/551651-300-300?v=638385973687570000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1af1"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.905Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 32\" LED FHD Smart TV 32S5400AF ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670445-300-300?v=638616664490970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1af3"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.936Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hisense 70 pulgadas UHD 4K Smart TV 70A6N ",
+  "precio": "$ 2.249.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/704298-300-300?v=638676440221330000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1af5"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.966Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 43\" LED FHD Smart TV HYLED4322GiM ",
+  "precio": "$ 959.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661077-300-300?v=638605653439670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248e2bea9d5d463c1af7"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:58.996Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 32\" LED HD Smart TV HYLED3254GiM ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661040-300-300?v=638605647697830000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d248f2bea9d5d463c1af9"
+  },
+  "batchId": "f1436b28-c2a4-41fd-9a4f-1dca78f5e522",
+  "createdAt": {
+    "$date": "2024-12-01T21:07:59.027Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:07:12.515Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 43\" LED FHD Smart TV 43S5400A ",
+  "precio": "$ 999.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670454-300-300?v=638616666606870000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77de0"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.306Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Combo Televisor LG 55\" LED UHD 4K Smart Tv WebOS 55UR7800PSB + Barra de sonido LG SK1 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/705305-300-300?v=638684253211670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77de2"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.341Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 50'' QLED UHD 4K Smart TV QN50Q60DAKXZL ",
+  "precio": "$ 1.849.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/688125-300-300?v=638654622347800000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77de4"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.372Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 43'' LED UHD 4K Smart TV UN43DU7000KXZL ",
+  "precio": "$ 1.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631026-300-300?v=638526923993700000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77de6"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.402Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Samsung 55'' LED UHD 4K Smart TV UN55DU7000KXZL ",
+  "precio": "$ 1.699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/631002-300-300?v=638526923925970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77de8"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.433Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 55'' LED UHD 4K Smart TV WebOS 24 55UT7300 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627707-300-300?v=638518152381270000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77dea"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.464Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun Smart 43\" DLED FHD C43VAFW ",
+  "precio": "$ 949.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/569430-300-300?v=638429985937000000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77dec"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.495Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 50\" NanoCell UHD 4K Smart TV WebOS 24 50NANO80 ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/678913-300-300?v=638642830887970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77dee"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.525Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor LG 65'' LED UHD 4K Smart TV WebOS 24 65UT7300 ",
+  "precio": "$ 2.299.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/627715-300-300?v=638518152409670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77df0"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.555Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 65\" Smart TV UHD 4K C65VAUW ",
+  "precio": "$ 1.899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/587186-300-300?v=638463890102470000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77df2"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.584Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Challenger 32\" LED HD Smart  Google Tv 32TG79 ",
+  "precio": "$ 649.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/636737-300-300?v=638548520878770000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77df4"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.616Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Caixun 43\" DLED FHD Smart Tv C43VAFG ",
+  "precio": "$ 899.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/551651-300-300?v=638385973687570000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77df6"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.647Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 32\" LED FHD Smart TV 32S5400AF ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670445-300-300?v=638616664490970000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77df8"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.678Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hisense 70 pulgadas UHD 4K Smart TV 70A6N ",
+  "precio": "$ 2.249.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/704298-300-300?v=638676440221330000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77dfa"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.709Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 43\" LED FHD Smart TV HYLED4322GiM ",
+  "precio": "$ 959.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661077-300-300?v=638605653439670000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77dfc"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.739Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor Hyundai 32\" LED HD Smart TV HYLED3254GiM ",
+  "precio": "$ 699.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/661040-300-300?v=638605647697830000&width=300&height=300&aspect=true"
+},
+{
+  "_id": {
+    "$oid": "674d26afe24ca81c5fb77dfe"
+  },
+  "batchId": "baad0916-a269-48f5-96bf-e1d214735651",
+  "createdAt": {
+    "$date": "2024-12-01T21:17:03.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T21:16:55.039Z"
+  },
+  "status": "complete",
+  "producto": "Televisor TCL 43\" LED FHD Smart TV 43S5400A ",
+  "precio": "$ 999.900",
+  "img": "https://jumbocolombiaio.vtexassets.com/arquivos/ids/670454-300-300?v=638616666606870000&width=300&height=300&aspect=true"
+}]

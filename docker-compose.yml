@@ -6,8 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: scraper
-    environment:
-      - MONGO_URI=mongodb://localhost:27017 # Aquí se conecta con el contenedor de MongoDB
+    env_file:
+      - .env  # Carga todas las variables del archivo .env
     ports:
       - "3000:3000"  # Exponiendo el puerto 8000 del contenedor al 3000 en el host
     volumes:
