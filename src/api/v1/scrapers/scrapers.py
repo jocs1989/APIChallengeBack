@@ -24,7 +24,7 @@ async def start(data:ScraperIn=Body(...)):
     try:
 
         bach_id=str(uuid4())
-        result = await Scraper(url=data.url,bach_id=bach_id).start()
+        result = await Scraper(url=str(data.url),bach_id=bach_id).start()
         
         return result
 
